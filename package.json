@@ -1,0 +1,13 @@
+{
+  "name": "crowd-funding",
+  "version": "1.0.0",
+  "description": "Crowd Funding Platform",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
+} 
